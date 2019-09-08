@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## How this App works?
 
-This project is a starting point for a Flutter application.
+//Basically how it works is that:
+// There is 1 stack widget that stacks one stack widget and a PageView Widget
+// PageView Widget return Empty Container Widget used to detect currentPage upon scrolling
+// The other Stack Widget contains an array of images(which is this case is also a Stack Widget to stack together with other widget such as Text Widget) as child and will change its position according to the scrolling of PageView
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
