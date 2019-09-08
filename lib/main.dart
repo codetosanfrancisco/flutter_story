@@ -26,15 +26,14 @@ class MyApp extends StatefulWidget {
 }
 
 class MyAppState extends State<MyApp> {
-  var currentPage = images.length - 1;
+  var currentPage = images.length - 1.0;
   @override
   Widget build(BuildContext context) {
     PageController controller = PageController(initialPage: images.length - 1);
 
     controller.addListener(() => {
           setState(() {
-            currentPage:
-            controller.page;
+            currentPage = controller.page;
           })
         });
 
